@@ -136,12 +136,14 @@
 import Radio from '~/components/input/Radio.vue'
 import { Question } from '~/components/index'
 import { questions } from '~/content/questions.json'
+import { firebaseApp } from '~/services/firebaseApp'
 export default {
   firebase: {
-    answers: this.$firebase
-      .database()
-      .ref.ref('/')
-      .set(this.$store.state.quiz.form)
+    answers: []
+    // answers: this.$firebase
+    //   .database()
+    //   .ref.ref('/')
+    //   .set(this.$store.state.quiz.form)
   },
   components: {
     Radio,
@@ -172,6 +174,7 @@ export default {
   mounted() {
     this.$store.dispatch('quiz/INIT_FORM', questions)
     console.log('mounted')
+    console.log(firebaseApp)
   },
   methods: {
     // go to next question
@@ -182,9 +185,9 @@ export default {
       this.$store.commit('quiz/DECREMENT_QUESTION_INDEX')
     },
     sendToFirebase: function() {
-      this.$firebaseRefs.answers.push({
-        questions: questions
-      })
+      // this.$firebaseRefs.answers.push({
+      //   questions: questions
+      // })
       alert('Succeessfully added')
     }
   }
