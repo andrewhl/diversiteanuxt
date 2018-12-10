@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "heading": "Are you adventurous?",
+      "subheading": "Are you adventerous?",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum debitis dolore maxime voluptate dolorem blanditiis?",
+      "inputs": [
+        {
+          "type": "radio",
+          "text": "How adventerous are you?",
+          "value": "Lorem ipsum dolor sit."
+        },
+        {
+          "type": "radio",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eius nostrum voluptatibus soluta, repellendus dolores.",
+          "value": "Lorem ipsum dolor sit."
+        },
+        {
+          "type": "radio",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eius nostrum voluptatibus soluta, repellendus dolores.",
+          "value": "Lorem ipsum dolor sit."
+        }
+      ]
+    },
+    {
+      "heading": "Heading",
+      "subheading": "Lorem ipsum dolor sit amet.",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum debitis dolore maxime voluptate dolorem blanditiis?",
+      "inputs": [
+        {
+          "type": "radio",
+          "text": "How adventerous are you?",
+          "value": "Lorem ipsum dolor sit."
+        },
+        {
+          "type": "radio",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eius nostrum voluptatibus soluta, repellendus dolores.",
+          "value": "Lorem ipsum dolor sit."
+        },
+        {
+          "type": "radio",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eius nostrum voluptatibus soluta, repellendus dolores.",
+          "value": "Lorem ipsum dolor sit."
+        }
+      ]
+    },
+    {
+      "heading": "Heading",
+      "subheading": "Lorem ipsum dolor sit amet.",
+      "inputs": [
+        {
+          "type": "text",
+          "text": "Email",
+          "value": "Email address"
+        },
+        {
+          "type": "text",
+          "text": "Name",
+          "value": "Name"
+        }
+      ]
+    }
+  ]
+}
